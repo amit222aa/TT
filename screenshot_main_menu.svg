@@ -1,0 +1,58 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Browser window mockup -->
+    <rect x="0" y="0" width="600" height="400" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+    <!-- Browser header -->
+    <rect x="0" y="0" width="600" height="40" fill="#2c3e50"/>
+    <circle cx="20" cy="20" r="6" fill="#ff6b6b"/>
+    <circle cx="40" cy="20" r="6" fill="#ffeb3b"/>
+    <circle cx="60" cy="20" r="6" fill="#4caf50"/>
+    <text x="300" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Online Food Ordering System</text>
+
+    <!-- Main content area -->
+    <rect x="0" y="40" width="600" height="360" fill="white"/>
+
+    <!-- Header -->
+    <rect x="0" y="40" width="600" height="80" fill="#3498db"/>
+    <text x="300" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">🍕 Welcome to FoodHub</text>
+    <text x="300" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Delicious food delivered to your doorstep</text>
+
+    <!-- Navigation -->
+    <rect x="0" y="120" width="600" height="50" fill="#f8f9fa" stroke="#eee" stroke-width="1"/>
+    <text x="100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">Menu</text>
+    <text x="200" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">Categories</text>
+    <text x="300" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">Cart (0)</text>
+    <text x="400" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">Orders</text>
+    <text x="500" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#3498db">Login</text>
+
+    <!-- Menu items grid -->
+    <rect x="20" y="190" width="170" height="180" fill="white" stroke="#eee" stroke-width="1" rx="8"/>
+    <rect x="20" y="190" width="170" height="120" fill="#f8f9fa"/>
+    <text x="105" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">[Food Image]</text>
+    <text x="105" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Margherita Pizza</text>
+    <text x="105" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Pizza</text>
+    <text x="105" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">₹1,079</text>
+    <rect x="50" y="295" width="110" height="30" fill="#27ae60" rx="4"/>
+    <text x="105" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Add to Cart</text>
+
+    <rect x="210" y="190" width="170" height="180" fill="white" stroke="#eee" stroke-width="1" rx="8"/>
+    <rect x="210" y="190" width="170" height="120" fill="#f8f9fa"/>
+    <text x="295" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">[Food Image]</text>
+    <text x="295" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Caesar Salad</text>
+    <text x="295" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Salad</text>
+    <text x="295" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">₹746</text>
+    <rect x="240" y="295" width="110" height="30" fill="#27ae60" rx="4"/>
+    <text x="295" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Add to Cart</text>
+
+    <rect x="400" y="190" width="170" height="180" fill="white" stroke="#eee" stroke-width="1" rx="8"/>
+    <rect x="400" y="190" width="170" height="120" fill="#f8f9fa"/>
+    <text x="485" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">[Food Image]</text>
+    <text x="485" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Burger Deluxe</text>
+    <text x="485" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Burger</text>
+    <text x="485" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">₹995</text>
+    <rect x="430" y="295" width="110" height="30" fill="#27ae60" rx="4"/>
+    <text x="485" y="313" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Add to Cart</text>
+
+    <!-- Footer -->
+    <rect x="0" y="380" width="600" height="20" fill="#2c3e50"/>
+    <text x="300" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">© 2026 FoodHub - Online Food Ordering System</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Browser window mockup -->
+    <rect x="0" y="0" width="600" height="400" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+    <!-- Browser header -->
+    <rect x="0" y="0" width="600" height="40" fill="#2c3e50"/>
+    <circle cx="20" cy="20" r="6" fill="#ff6b6b"/>
+    <circle cx="40" cy="20" r="6" fill="#ffeb3b"/>
+    <circle cx="60" cy="20" r="6" fill="#4caf50"/>
+    <text x="300" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Order Tracking - FoodHub</text>
+
+    <!-- Main content area -->
+    <rect x="0" y="40" width="600" height="360" fill="white"/>
+
+    <!-- Header -->
+    <rect x="0" y="40" width="600" height="60" fill="#3498db"/>
+    <text x="300" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">📋 Order Tracking</text>
+    <text x="300" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Track your food orders in real-time</text>
+
+    <!-- Navigation -->
+    <rect x="0" y="100" width="600" height="40" fill="#f8f9fa" stroke="#eee" stroke-width="1"/>
+    <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Menu</text>
+    <text x="200" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Categories</text>
+    <text x="300" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Cart (0)</text>
+    <text x="400" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3498db">Orders</text>
+    <text x="500" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">Profile</text>
+
+    <!-- Order list -->
+    <text x="30" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Your Orders</text>
+
+    <!-- Order 1 -->
+    <rect x="30" y="175" width="540" height="80" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+    <text x="50" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Order #1001</text>
+    <text x="50" y="210" font-family="Arial, sans-serif" font-size="12" fill="#666">Placed on: April 4, 2026 at 2:30 PM</text>
+    <text x="50" y="225" font-family="Arial, sans-serif" font-size="12" fill="#666">Items: Margherita Pizza, Caesar Salad</text>
+    <text x="50" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">Total: ₹1,825</text>
+
+    <!-- Status badge -->
+    <rect x="450" y="185" width="100" height="25" fill="#27ae60" rx="12"/>
+    <text x="500" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Delivered</text>
+
+    <!-- Order 2 -->
+    <rect x="30" y="270" width="540" height="80" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1" rx="4"/>
+    <text x="50" y="290" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">Order #1002</text>
+    <text x="50" y="305" font-family="Arial, sans-serif" font-size="12" fill="#666">Placed on: April 4, 2026 at 4:15 PM</text>
+    <text x="50" y="320" font-family="Arial, sans-serif" font-size="12" fill="#666">Items: Burger Deluxe, Iced Tea</text>
+    <text x="50" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">Total: ₹1,243</text>
+
+    <!-- Status badge -->
+    <rect x="450" y="280" width="100" height="25" fill="#f39c12" rx="12"/>
+    <text x="500" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Preparing</text>
+
+    <!-- No more orders message -->
+    <text x="300" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">No more orders to display</text>
+
+    <!-- Footer -->
+    <rect x="0" y="380" width="600" height="20" fill="#2c3e50"/>
+    <text x="300" y="393" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">© 2026 FoodHub - Track your orders</text>
+</svg>
