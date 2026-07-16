@@ -83,7 +83,7 @@ function loadMenuItems() {
             id: 2,
             name: 'Pepperoni Pizza',
             category: 'Pizza',
-            price: 1161,
+            price: 1100,
             description: 'Loaded with pepperoni and cheese',
             image: 'https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=400&h=300&fit=crop',
             emoji: '🍕'
@@ -92,7 +92,7 @@ function loadMenuItems() {
             id: 3,
             name: 'Caesar Salad',
             category: 'Salads',
-            price: 746,
+            price: 700,
             description: 'Fresh greens with Caesar dressing',
             image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop',
             emoji: '🥗'
@@ -101,7 +101,7 @@ function loadMenuItems() {
             id: 4,
             name: 'Garden Salad',
             category: 'Salads',
-            price: 663,
+            price: 600,
             description: 'Mixed vegetables with vinaigrette',
             image: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=300&fit=crop',
             emoji: '🥗'
@@ -110,7 +110,7 @@ function loadMenuItems() {
             id: 5,
             name: 'Burger Deluxe',
             category: 'Burgers',
-            price: 995,
+            price: 900,
             description: 'Double patty with all toppings',
             image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop',
             emoji: '🍔'
