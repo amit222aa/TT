@@ -2,7 +2,7 @@
 // API.JS - API Communication
 // ===================================
 
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 const TIMEOUT = 5000;
 
 class ApiClient {
