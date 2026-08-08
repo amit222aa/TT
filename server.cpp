@@ -8,7 +8,7 @@ Server::~Server() {}
 
 bool Server::start() {
     running = true;
-    std::cout << "Server starting on port " << port << std::endl;
+    std::cout << "Server starting on port " << ports << std::endl;
     return true;
 }
 
