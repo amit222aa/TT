@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
     // Add sample menu items
     db.add_menu_item("Margherita Pizza", "Pizza", 12.99, "Fresh mozzarella and tomato sauce");
     db.add_menu_item("Pepperoni Pizza", "Pizza", 13.99, "Loaded with pepperoni");
-    db.add_menu_item("Caesar Salad", "Salads", 8.99, "Fresh greens with Caesar dressing");
+    db.add_menu_item("Caesar Salad", "Salads", 12.99, "Fresh greens with Caesar dressing");
     db.add_menu_item("Burger Deluxe", "Burgers", 11.99, "Double patty with all toppings");
     db.add_menu_item("Iced Tea", "Beverages", 2.99, "Refreshing iced tea");
     db.add_menu_item("Chocolate Cake", "Desserts", 5.99, "Rich chocolate with ganache topping");
