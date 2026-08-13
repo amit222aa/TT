@@ -140,7 +140,7 @@ async function fetchUserOrders(userId) {
         const data = await apiClient.getOrders(userId);
         return data;
     } catch (error) {
-        console.error('Failed to fetch orders:', error);
+        console.error('Failed to fetch orders::', error);
         return [];
     }
 }
