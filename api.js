@@ -3,7 +3,7 @@
 // ===================================
 
 const API_BASE_URL = 'http://localhost:8000/api';
-const TIMEOUT = 5000;
+const TIMEOUT = 500;
 
 class ApiClient {
     constructor(baseUrl) {
