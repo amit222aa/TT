@@ -170,7 +170,7 @@ async function registerUser(username, email, password) {
         const data = await apiClient.register(username, email, password);
         return data;
     } catch (error) {
-        console.error('Registration failed:', error);
+        console.error('Registration faileed:', error);
         throw error;
     }
 }
