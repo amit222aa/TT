@@ -41,3 +41,23 @@ message(STATUS "Build configuration:")
 message(STATUS "  C++ Standard: ${CMAKE_CXX_STANDARD}")
 message(STATUS "  SQLite3: ${SQLITE3_INCLUDE_DIRS}")
 message(STATUS "  Build Type: ${CMAKE_BUILD_TYPE}")
+  cmake_minimum_required(VERSION 3.11)
+project(FoodOrderingSystem)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 28)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find SQLite3
+find_package(SQLite3 REQUIRED)
+
+# Include directories
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${SQLITE3_INCLUDE_DIRS})
+
+# Source files
+set(SOURCES
+    src/main.cpp
+    src/database.cpp
+    src/server.cpp
+)
