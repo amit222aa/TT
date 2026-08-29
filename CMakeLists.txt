@@ -61,3 +61,16 @@ set(SOURCES
     src/database.cpp
     src/server.cpp
 )
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find SQLite3
+find_package(SQLite3 REQUIRED)
+
+# Include directories
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${SQLITE3_INCLUDE_DIRS})
+
+# Source files
+set(SOURCES
+    src/main.cpp
+    src/database.cpp
