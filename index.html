@@ -11,7 +11,21 @@
     <nav class="navbar">
         <div class="container">
             <div class="nav-brand">
-                <h1>🍔 FoodHub</h1>
+                <h1>🍔 FoodHubb</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Menu</a></li>
+                <li><a href="javascript:void(0)" onclick="showCart()">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="order-tracking.html">📦 Order</a></li>
+                <li><a href="javascript:void(0)" onclick="logout()" id="logout-btn" style="display:none;">Logout</a></li>
+                <li><a href="javascript:void(0)" onclick="showAuthModal()" id="auth-btn">Login/Register</a></li>
+            </ul>
+        </div>
+    </nav>
+     <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>🍔 FoodHubb</h1>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html" class="active">Menu</a></li>
