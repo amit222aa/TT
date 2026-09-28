@@ -20,7 +20,33 @@ struct MenuItem {
     double price;
     std::string description;
 };
+struct User {
+    int id;
+    std::string username;
+    std::string email;
+    std::string password_hash;
+};
 
+struct MenuItem {
+    int id;
+    std::string name;
+    std::string category;
+    double price;
+    std::string description;
+};struct User {
+    int id;
+    std::string username;
+    std::string email;
+    std::string password_hash;
+};
+
+struct MenuItem {
+    int id;
+    std::string name;
+    std::string category;
+    double price;
+    std::string description;
+};
 struct CartItem {
     int id;
     int menu_item_id;
