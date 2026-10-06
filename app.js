@@ -47,7 +47,16 @@ function setupEventListeners() {
             filterMenuItems();
         });
     });
-    
+    function setupEventListeners() {
+    // Category buttons
+    document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentFilter = this.dataset.category;
+            filterMenuItems();
+        });
+    });
     // Search functionality
     const searchInput = document.getElementById('search-input');
     if (searchInput) {
